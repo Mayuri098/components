@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
 #logo{ 
-	position: absolute;; 
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute; 
 	top:9px; 
-	left:0; 
+
 } 
 
 @media all and (min-width: 992px) {
@@ -13,12 +17,14 @@
 	.top .nav-item .dropdown-menu .dropdown-item:hover{ background-color: rgb(77, 74, 74);}
 }
 
+
 .top{
+	font-family: 'poppins';
 	margin-top: 3px;
 	display: flex;
   	flex-direction: row-reverse;
   	justify-content: space-between;
-	  width: 100%;
-	  margin-bottom: 0px;
+	width: 100%;
+	margin-bottom: 0px;
 	
 }
